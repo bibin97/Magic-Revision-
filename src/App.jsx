@@ -2,7 +2,6 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
-import Problem from './pages/Problem';
 import About from './pages/About';
 import HowItWorks from './pages/HowItWorks';
 import Results from './pages/Results';
@@ -13,7 +12,6 @@ function App() {
     <div className="min-h-screen bg-slate-100 font-sans text-slate-900 transition-colors duration-500">
       <Navbar />
       <Home />
-      <Problem />
       <About />
       <HowItWorks />
       <Results />
