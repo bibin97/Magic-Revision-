@@ -16,15 +16,15 @@ export default function About() {
                     initial="hidden"
                     whileInView="visible"
                     viewport={viewportConfig}
-                    className="text-center mb-24 max-w-4xl mx-auto"
+                    className="text-center mb-16 max-w-4xl mx-auto"
                 >
-                    <h2 className="text-4xl md:text-5xl font-extrabold text-slate-900 mb-8 tracking-tight">
+                    <h2 className="text-4xl md:text-5xl font-extrabold text-slate-900 mb-6 tracking-tight">
                         What Exactly Is <span style={{ color: accentColor }}>Magic Revision?</span>
                     </h2>
                     <div className="space-y-4 text-xl md:text-2xl text-slate-600 leading-relaxed font-medium">
                         <p>Not another tuition.</p>
                         <p>Not longer study hours.</p>
-                        <p className="pt-6 text-slate-800 leading-normal max-w-3xl mx-auto">
+                        <p className="pt-4 text-slate-800 leading-normal max-w-3xl mx-auto">
                             Magic Revision is a structured <span className="font-bold">Revision & Recall System</span> that trains students to <span className="font-semibold">remember what they study</span> and apply it confidently under real exam pressure.
                         </p>
                     </div>
@@ -36,14 +36,14 @@ export default function About() {
                     initial="hidden"
                     whileInView="visible"
                     viewport={viewportConfig}
-                    className="mb-24"
+                    className="mb-16"
                 >
-                    <motion.div variants={fadeInUp} className="text-center mb-12">
+                    <motion.div variants={fadeInUp} className="text-center mb-10">
                         <h3 className="text-3xl font-bold text-slate-900 mb-4">Why Most Students Forget What They Study</h3>
                         <div className="w-24 h-1 mx-auto rounded-full" style={{ backgroundColor: accentColor }}></div>
                     </motion.div>
 
-                    <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+                    <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
                         {[
                             {
                                 icon: <BookOpen className="w-10 h-10 mb-4" style={{ color: accentColor }} />,
@@ -62,7 +62,7 @@ export default function About() {
                                 key={index}
                                 variants={fadeInUp}
                                 whileHover={cardHover}
-                                className="bg-slate-50 p-8 rounded-2xl text-center border border-slate-100 shadow-sm"
+                                className="bg-slate-50 p-6 rounded-2xl text-center border border-slate-100 shadow-sm"
                             >
                                 <div className="flex justify-center">{item.icon}</div>
                                 <p className="text-lg text-slate-800 font-medium">{item.text}</p>
@@ -70,7 +70,7 @@ export default function About() {
                         ))}
                     </div>
 
-                    <motion.div variants={fadeInUp} className="text-center mt-12">
+                    <motion.div variants={fadeInUp} className="text-center mt-10">
                         <p className="text-xl font-bold bg-amber-50 text-amber-900 py-4 px-8 inline-block rounded-full border border-amber-100 shadow-sm">
                             Marks don’t improve — not because students don’t study — but because revision is unstructured.
                         </p>
@@ -83,18 +83,18 @@ export default function About() {
                     initial="hidden"
                     whileInView="visible"
                     viewport={viewportConfig}
-                    className="mb-24"
+                    className="mb-16"
                 >
-                    <motion.div variants={fadeInUp} className="text-center mb-16">
+                    <motion.div variants={fadeInUp} className="text-center mb-12">
                         <h3 className="text-3xl font-bold text-slate-900">What Makes Magic Revision Different?</h3>
                     </motion.div>
 
-                    <div className="grid md:grid-cols-3 gap-8">
+                    <div className="grid md:grid-cols-3 gap-6">
                         {/* CARD 1 */}
                         <motion.div
                             variants={fadeInUp}
                             whileHover={cardHover}
-                            className="bg-white p-8 rounded-2xl shadow-lg border border-slate-100 relative group"
+                            className="bg-white p-6 rounded-2xl shadow-lg border border-slate-100 relative group"
                         >
                             <div className="absolute top-0 left-0 w-full h-1 rounded-t-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" style={{ backgroundColor: accentColor }}></div>
                             <div className="bg-teal-50 w-16 h-16 rounded-full flex items-center justify-center mb-6">
@@ -110,7 +110,7 @@ export default function About() {
                         <motion.div
                             variants={fadeInUp}
                             whileHover={cardHover}
-                            className="bg-white p-8 rounded-2xl shadow-lg border border-slate-100 relative group"
+                            className="bg-white p-6 rounded-2xl shadow-lg border border-slate-100 relative group"
                         >
                             <div className="absolute top-0 left-0 w-full h-1 rounded-t-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" style={{ backgroundColor: accentColor }}></div>
                             <div className="bg-teal-50 w-16 h-16 rounded-full flex items-center justify-center mb-6">
@@ -126,7 +126,7 @@ export default function About() {
                         <motion.div
                             variants={fadeInUp}
                             whileHover={cardHover}
-                            className="bg-white p-8 rounded-2xl shadow-lg border border-slate-100 relative group"
+                            className="bg-white p-6 rounded-2xl shadow-lg border border-slate-100 relative group"
                         >
                             <div className="absolute top-0 left-0 w-full h-1 rounded-t-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" style={{ backgroundColor: accentColor }}></div>
                             <div className="bg-teal-50 w-16 h-16 rounded-full flex items-center justify-center mb-6">
@@ -146,9 +146,9 @@ export default function About() {
                     initial="hidden"
                     whileInView="visible"
                     viewport={viewportConfig}
-                    className="mb-20 text-center"
+                    className="mb-16 text-center"
                 >
-                    <motion.h3 variants={fadeInUp} className="text-3xl font-bold text-slate-900 mb-10">Who Is Magic Revision For?</motion.h3>
+                    <motion.h3 variants={fadeInUp} className="text-3xl font-bold text-slate-900 mb-8">Who Is Magic Revision For?</motion.h3>
 
                     <div className="flex flex-wrap justify-center gap-4 mb-8">
                         {[
@@ -176,7 +176,7 @@ export default function About() {
                     initial="hidden"
                     whileInView="visible"
                     viewport={viewportConfig}
-                    className="text-center mb-20"
+                    className="text-center mb-16"
                 >
                     <p className="text-2xl font-serif italic text-slate-500 max-w-3xl mx-auto leading-relaxed">
                         “Designed for real exam pressure and Indian exam patterns — not classroom theory.”
