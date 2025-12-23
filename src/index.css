@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+  --color-accent: #4f46e5;
+  --color-accent-hover: #4338ca;
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+/* Custom Utilities if needed, but we will try to use utility classes directly */
+body {
+  @apply font-sans antialiased text-slate-800 bg-slate-100 transition-colors duration-300;
+}
